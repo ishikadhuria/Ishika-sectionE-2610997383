@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Restaurant Menu</title>
+</head>
+<body>
+
+    <h1>Interactive Restaurant Menu Using Image Map</h1>
+
+    <p>Click on any food item to know more about it.</p>
+
+    <img src="food menu copy.jpeg" alt="Restaurant Food Menu"
+         usemap="#foodmap" width="600" height="400">
+
+    <map name="foodmap">
+
+        <!-- Circle: Pizza -->
+        <area shape="circle" coords="200,250,70"
+              href="https://www.pizzahut.co.in/" alt="Pizza" target="_blank">
+
+        <!-- Circle: Burger -->
+        <area shape="circle" coords="450,100,50"
+              href="https://www.burgerking.in/" alt="Burger" target="_blank">
+
+        <!-- Rectangle: French Fries -->
+        <area shape="rect" coords="50,150,150,220"
+              href="https://www.zomato.com/chandigarh/restaurants/dish-french-fries" alt="French Fries" target="_blank">
+
+        <!-- Rectangle: Menu Card -->
+        <area shape="rect" coords="250,20,350,100"
+              href="https://subway.com/en-us/menunutrition/menu" alt="Menu Card" target="_blank">
+
+        <!-- Polygon: Sandwich -->
+        <area shape="poly"
+              coords="350,150,420,150,450,200,380,220"
+              href="https://subway.in/" alt="Sandwich" target="_blank">
+
+        <!-- Polygon: Cake Slice -->
+        <area shape="poly"
+              coords="450,250,520,250,500,320,430,300"
+              href="https://theobroma.in/" alt="Cake Slice" target="_blank">
+
+        <!-- Default area -->
+        <area shape="default"
+              href="https://mcdindia.com/"
+              alt="Other Restaurant Information" target="_blank">
+
+    </map>
+
+</body>
+</html>
